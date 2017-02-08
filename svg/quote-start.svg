@@ -1,0 +1,29 @@
+<svg width="52" height="40" viewBox="0 0 52 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>&#226;&#128;&#156;</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(269 -6616)" figma:type="canvas">
+<rect x="-269" y="6616" width="52" height="40" fill="#E5E5E5"/>
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M -542 -2337L 738 -2337L 738 8470L -542 8470L -542 -2337Z" fill="#FFFFFF"/>
+</mask>
+<g id="1280" style="mix-blend-mode:normal;" mask="url(#mask0_alpha)" figma:type="frame">
+<path d="M -542 -2337L 738 -2337L 738 8470L -542 8470L -542 -2337Z" fill="#FFFFFF"/>
+<g id="Rectangle 5" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="matrix(1 -4.57695e-17 4.57695e-17 1 -542 6243)" fill="url(#paint0_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="&#226;&#128;&#156;" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path1_fill" transform="translate(-268.165 6616.09)" fill="#999999" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.83774e-14 430 -1280 2.63299e-14 1280 -2.63299e-14)">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+<stop offset="1" stop-color="#FFFFFF"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 0L 1280 0L 1280 430L 0 430L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 19.8812 37.178C 21.8343 35.3586 22.8108 33.2366 22.8108 30.811C 22.8108 29.6362 22.6307 28.4993 22.2704 27.4001C 21.9101 26.3013 21.2939 25.2969 20.4216 24.3872C 19.5115 23.4399 18.3169 22.7009 16.8379 22.1702C 15.3589 21.6396 13.4438 21.3745 11.0925 21.3745L 7.90698 21.3745C 8.28622 17.4331 9.68936 14.0791 12.1165 11.3125C 14.5435 8.5459 17.8997 6.12061 22.1851 4.03613L 19.6821 0C 14.2591 2.3877 9.62302 5.89307 5.7738 10.5166C 1.92456 15.1401 0 19.7258 0 24.2737C 0 29.1626 1.11871 32.9902 3.3562 35.7566C 5.59366 38.5232 8.79816 39.9065 12.9697 39.9065C 15.6244 39.9065 17.9282 38.9971 19.8812 37.178ZM 47.9254 37.178C 49.8785 35.3586 50.855 33.2366 50.855 30.811C 50.855 29.6362 50.6749 28.4993 50.3146 27.4001C 49.9543 26.3013 49.3381 25.2969 48.4659 24.3872C 47.5557 23.4399 46.3611 22.7009 44.8821 22.1702C 43.4031 21.6396 41.488 21.3745 39.1367 21.3745L 35.9512 21.3745C 36.3304 17.4331 37.7336 14.0791 40.1607 11.3125C 42.5878 8.5459 45.9439 6.12061 50.2293 4.03613L 47.7263 0C 42.3033 2.3877 37.6672 5.89307 33.818 10.5166C 29.9688 15.1401 28.0442 19.7258 28.0442 24.2737C 28.0442 29.1626 29.1629 32.9902 31.4004 35.7566C 33.6379 38.5232 36.8424 39.9065 41.0139 39.9065C 43.6686 39.9065 45.9724 38.9971 47.9254 37.178Z"/>
+</defs>
+</svg>

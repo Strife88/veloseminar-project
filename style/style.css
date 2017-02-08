@@ -1,0 +1,674 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    position: relative;
+    width:1280px;
+    font-size: 0px;
+    margin: auto;
+}
+.container-right {
+    width: 670px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.container-right-narrow{
+    width: 447px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+.container-min{
+    width: 490px
+}
+.container-narrow{
+    width: 1065px;
+    margin: auto;
+    font-size: 0px;
+}
+.hero {
+    width:100%;
+}
+.start-img {
+    height: 800px;
+    background: linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 69%, rgba(255,255,255,1) 100%),url("../img/start-img.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.bike-img {
+    height: 650px;
+    background: url(../img/bike-ready.jpg);
+    background-size: cover;
+    background-position-y: 85%;
+    text-align: center;
+    margin-top: 100px;
+}
+.bike-icon{
+    display: inline-block;
+        padding-top: 60px;
+}
+
+.CTA-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background: #31AFF9;
+    border-radius: 6px;
+    padding: 15px 25px;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+.promo {
+    display: inline-block;
+    width: 413px;
+    height: 420px;
+    color: #333;
+    margin-right: 20px;
+    margin-top: 50px;
+    vertical-align: top;
+    text-align: center;
+}
+.promo h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.promo-icon{
+    display: inline-block;
+}
+.no-right-margin {
+    margin-right:0px !important;
+}
+.map-bg {
+    width: 100%;
+    height: 740px;
+    background: linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%),url(../img/map.png), #EAEDF2;
+    padding-top: 135px;
+}
+.img-pohod {
+    display: inline-block;
+    background: url(../img/Hardship.jpg);
+    border: 10px solid white;
+    width:488px;
+    height: 650px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+h5 + .CTA-button {
+    margin-top: 30px;
+}
+.dashboard{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 115px;
+    background: white;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+.dashboard-group {
+    height: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.date {
+    background: url(../svg/date-pohod.svg);
+    background-repeat: no-repeat;
+    width: 142px;
+}
+.difficulty {
+    width: 180px;
+}
+.group {
+    position: relative;
+    width: 147px;
+    border-left: 1px solid #ECEFF3;
+    border-right: 1px solid #ECEFF3;
+}
+.length {
+    width: 198px;
+}
+.dashboard-group h7 {
+    color: #A8B290;
+}
+.dashboard-group.date h7 {
+    color: white;
+}
+.icon-man {
+    position: absolute;
+    background: url(../svg/man.svg);
+    width: 19px;
+    height: 27px;
+    right: 19px;
+    bottom: 33px;
+}
+.with-icon {
+    text-align: left;
+    padding-left: 15px;
+}
+.card-big{
+    height:440px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    margin-top: 50px;
+}
+.card-big-img {
+    display: inline-block;
+    background: url(../img/bike.jpg);
+    width: 607px;
+    height: 364px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.card-text {
+    display: inline-block;
+    width: 410px;
+    margin-left: 20px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.card-text h4 {
+    display: inline-block;
+    text-align: left;
+    line-height: 130%;
+    color: #F0B670;
+    text-transform: uppercase;
+}
+.card-text p {
+    margin-top: 20px;
+    display: inline-block;
+}
+.card .card-text p {
+    margin-top: 5px;
+}
+.card .card-text {
+    width: 320px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.card {
+    display: inline-block;
+    height:500px;
+    width:341px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    margin-top: 40px;
+    margin-right:20px;
+}
+.card-img{
+    display: inline-block;
+    width: 322px;
+    height: 211px;
+    margin:10px;   
+}
+.card-img.pohod-org {
+    background: url(../img/podgotovka.png);
+}
+.card-img.city-travel {
+    background: url(../img/town-drive.png);
+}
+.card-img.health {
+    background: url(../img/fitnes.png);
+}
+.practice-img{
+    height: 688px;
+    background: linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0.3) 80%, rgba(255,255,255,1) 100%),url(../img/practice.jpg),white;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.practice-img .container-narrow h3 {
+    color: white;
+}
+
+.roads {
+    background: url(../img/road.jpg);
+}
+.trails {
+    background: url(../img/trail.jpg);
+}
+.repair {
+    background: url(../img/repair.jpg);
+}
+.img-card {
+    margin-top: 60px;
+    display: inline-block;
+    width: 355px;
+    height: 348px;
+    vertical-align: bottom;
+    background-size: 102%;
+    background-position: 10% 10%;
+}
+.Tagline {
+margin-top: 234px;
+width:100%;
+height: 115px;
+background: rgba(65,65,65,0.65);
+}
+.Tagline h4 {
+    padding-top: 20px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.trails .Tagline h4 {
+    padding-top: 35px;   
+}
+.repair .Tagline h4 {
+    padding-top: 35px;   
+}
+.map-bg-bottom{
+    padding-top: 200px;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,1) 0, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%),url(../img/map.png),white;  
+}
+.img-pvd {
+    display: inline-block;
+    background: url(../img/PVD.jpg);
+    border: 10px solid white;
+    width:673px;
+    height: 329px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+.img-pvd + .dashboard {
+    width:693px;
+}
+.dashboard.pvd-d {
+    position: absolute;
+    top: 350px;
+    width: 693px;
+    height: 115px;
+    display: block;
+}
+h2 + h5 {
+    margin-top:40px;
+}
+.container-right-narrow h5 + .CTA-button {
+    margin-top:10px;
+}
+.review {
+    position: relative;
+    display: inline-block;
+    width:305px;
+    text-align: center;
+}
+.review-width {
+    width:414px;
+    margin:0px 20px;
+}
+h6 + h7 {
+
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.review-img {
+    display: inline-block;
+    width:160px;
+    height:160px;
+    margin-top: 60px;
+}
+.review-img.alex{
+    background: url(../img/alex.png);
+}
+.review-img.jheka{
+    background: url(../img/Jheka.png);
+}
+.review-img.ksusha{
+    background: url(../img/Ksusha.png);
+}
+.review-img::after {
+    width: 100px;
+    content: "";
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    margin-left: -50px;
+    border-top: 1px solid black;
+}
+
+.review + h3 {
+    margin-top: 80px;
+}
+.image-1 {
+    display: inline-block;
+    background: url(../img/img1.jpg);
+    width:522px;
+    height:296px;
+}
+.image-2 {
+    display: inline-block;
+    background: url(../img/img2.jpg);
+    width: 522px;
+    background-size: 104%;
+    height: 307px;
+}
+.image-3 {
+    vertical-align: top;
+    display: inline-block;
+    background: url(../img/img3.jpg);
+    width: 305px;
+    height: 296px;
+    background-size: 133%;
+}
+.image-4 {
+    display: inline-block;
+    background: url(../img/img4.jpg);
+    width: 305px;
+    height: 307px;
+}
+.image-5 {
+    display: inline-block;
+    background: url(../img/img5.jpg);
+    width: 196px;
+    height: 296px;
+
+}
+.image-6 {
+    display: inline-block;
+    background: url(../img/img6.jpg);
+    width: 196px;
+    height: 307px;
+    background-size: 102%;
+    background-position: -1px -1px;
+}
+.image-cards{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.what-is-needed {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.block {
+    width:100%;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+.velo {
+  background: url(../svg/bike-icon.svg); 
+  width: 152px;
+  height: 152px; 
+}
+.gear {
+  background: url(../svg/gear.svg); 
+  width: 152px;
+  height: 152px; 
+}
+.strength {
+  background: url(../svg/muscle.svg); 
+  width: 152px;
+  height: 152px; 
+}
+.bottom-trail {
+    background: url(../img/bottom-trail.jpg) no-repeat;
+    background-size: cover;
+    height: 740px;
+    background-position-y: 260px;
+}
+.shatilov {
+    position: absolute;
+    background: url(../img/Shatilov.png);
+    display: inline-block;
+    width: 103px;
+    height: 103px;
+    margin-top: 60px;
+    left: -10px;
+    top: -65px;
+}
+.review.shatilovshina {
+    margin-left: 280px;
+    width: 745px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 80px;
+}
+.review.shatilovshina h4 {
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+}
+.review.shatilovshina p {
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+}
+.ending-text::after {
+    content: '';
+    position: absolute;
+    background: url(../svg/quote-end.svg);
+    width: 52px;
+    height: 40px;
+    left: 750px;
+    top: 235px;
+}
+.ending-text::before {
+    content: '';
+    position: absolute;
+    background: url(../svg/quote-start.svg);
+    width: 52px;
+    height: 40px;
+    left: -70px;
+    top: 125px;         
+}
+.payment1 {
+    width: 200px;
+    display: inline-block;
+}
+.payment2 {
+    width: 200px;
+    display: inline-block;
+}
+.or {
+    display: inline-block;
+    vertical-align: bottom;
+    height: 80px;
+    margin: 30px;
+}
+.bundle {
+    display: inline-block;
+    width: 662px;
+    border: 5px solid #F0B670;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.center-container{
+    text-align: center;
+}
+.full-width {
+    width: 530px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.text-block h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 130px;
+    text-indent: -14px;
+    width: 430px;
+}
+.text-block {
+    margin-bottom: 40px;
+}
+.bundle h4 {
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+.bundle h3 {
+    font-weight: 900; 
+    margin-top: 0px; 
+    
+    color: #F0B670;
+}
+.text-block h3{
+    margin-top: 40px;
+}
+.bundle h5 {
+    margin-bottom: 0px;
+}
+h4.payment {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+.conatiner{
+  width:1200px;
+}
+.plan {
+  margin-top: 350px;
+  text-align:center;
+  font-size:0px;
+  position:relative;
+  z-index:10;
+  margin-bottom: 100px;
+}
+.lession {
+  position: relative;
+  margin-right:30px;
+  display:inline-block;
+  font-family:'Roboto',sans-serif;
+  font-size:20px;
+  padding:4px 10px;
+  border:4px solid black;
+  border-radius:100px;
+  background:white;
+  font-weight:900;
+}
+.theory {
+  border-color:#50B4C8;
+  color:#50B4C8;
+}
+.practice {
+  border-color:#8DE4B0;
+  color:#8DE4B0;
+}
+.lession:last-child {
+  margin-right:0px;
+}
+.start {
+  padding: 10px 16px;
+}
+.line {
+    content: '';
+    border-bottom: 2px dashed #999;
+    position: absolute;
+    width: 830px;
+    top: 25px;
+    left: 110px;
+    z-index: -1;
+}
+
+.theory:hover  {
+  border-color:#50B4C8;
+  background:#50B4C8;
+  color:white;
+}
+.practice:hover  {
+  border-color:#8DE4B0;
+  color:#8DE4B0;
+  background:#8DE4B0;
+  color:white;
+}
+.BMP {
+  background:#8DE4B0;
+  color:white;
+}
+.pvd {
+  background:#8DE4B0;
+  color:white;  
+}
+.BMP:hover {
+  border-color:#6EB28A;
+  background:#6EB28A;
+  color:white;
+}
+.pvd:hover {
+  border-color:#6EB28A;
+  background:#6EB28A;
+  color:white;  
+}
+.urok-frame {
+    position: absolute;
+    border-left: 4px solid #50B4C8;
+    padding-bottom: 30px;
+    top: -295px;
+    left: 14px;
+}
+.urok{
+    padding: 20px;
+    background: white;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+.urok h7 {
+    padding-top: 0px;
+}
+.urok h4{
+    color: #F0B670;
+    text-align: left;
+}
+.urok p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.show {
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
+
+/*
+@media screen and (max-width: 1279px) {
+.container {
+    width: 100%;
+}
+.container-narrow {
+    width: 90%;
+}
+.review.shatilovshina{
+    width: 60%;
+}
+.promo {
+    width:30%;
+}
+.ending-text::after {
+    left: 100%;
+}
+.line {
+    width:80%;
+    left: 80px;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+.promo {
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+
+}*/
+@media screen and (max-width: 1279px) {
+body {
+    width: 100%;
+}
+
+
+}

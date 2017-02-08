@@ -1,0 +1,106 @@
+h1 {
+    font-size: 160px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 80%;
+    background: linear-gradient(rgba(255,255,255,1) 0, rgba(255,255,255,1) 85%, rgba(255,255,255,0.1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+h2 {
+    font-size: 62px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: left;
+}
+
+h3 {
+    margin-top: 60px;
+    font-size: 48px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+h4 {
+    font-size: 30px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+h5 {
+    font-size: 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+h6 {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    line-height: 130%;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+h7 {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    line-height: 130%;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+p {
+    font-size: 18px;
+
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+.big-text {
+    font-size: 85px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255,255,255,0.85);
+    text-align: right;
+    float: right;
+    vertical-align: bottom;
+}
+.big-text.thin {
+    margin-top: 40px;
+    font-weight: 100;
+}
+.bold {
+    font-weight: 700;
+}
+.ending-text {
+    display: inline-block;
+    font-size: 30px;
+    color: #333;
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    line-height: 130%;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    padding-top: 25px;
+}

@@ -1,0 +1,47 @@
+<svg width="152" height="152" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-454 1225)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse" style="mix-blend-mode:normal;" filter="url(#filter0_i)" figma:type="ellipse">
+<use xlink:href="#path0_fill" transform="translate(454 -1225)" fill="#EEF2F5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" filter="url(#filter1_d)" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(480 -1207)" fill="url(#paint1_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(492 -1176.88)" fill="#7E7E7E" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_i" filterUnits="userSpaceOnUse" x="450" y="-1228" width="160" height="159" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<desc>type="innerShadow" x="0" y="1" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha"/>
+<feOffset dx="0" dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+<filter id="filter1_d" filterUnits="userSpaceOnUse" x="476" y="-1206" width="109" height="122" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="4" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.12323e-15 116 -100 7.10295e-15 100 7.91142e-23)">
+<stop offset="0.0222222" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#F2F2F2"/>
+</linearGradient>
+<path id="path0_fill" d="M 152 76C 152 117.974 117.974 152 76 152C 34.0264 152 0 117.974 0 76C 0 34.0264 34.0264 0 76 0C 117.974 0 152 34.0264 152 76Z"/>
+<path id="path1_fill" d="M 100 82.4546C 100 85.3099 98.4781 87.9489 96.0067 89.3789L 54.0067 113.682C 51.5281 115.116 48.4719 115.116 45.9933 113.682L 3.99333 89.3789C 1.52188 87.9489 0 85.3099 0 82.4546L 0 33.671C 0 30.8215 1.51572 28.187 3.97919 26.7549L 45.9792 2.33755C 48.465 0.89242 51.535 0.89242 54.0208 2.33755L 96.0208 26.7549C 98.4843 28.187 100 30.8215 100 33.671L 100 82.4546Z"/>
+<path id="path2_fill" d="M 75.525 43.1349C 57.475 25.1488 54.3083 1.5917 54.3083 1.43253C 54.15 0.636678 53.5167 6.07184e-07 52.725 6.07184e-07L 23.275 6.07184e-07C 22.4833 6.07184e-07 21.85 0.636678 21.6917 1.43253C 21.6917 1.5917 18.525 25.1488 0.475 43.2941C -0.158333 43.9308 -0.158333 44.8858 0.475 45.5225C 1.10833 46.1592 2.05833 46.1592 2.69167 45.5225C 4.75 43.4533 6.65 41.3841 8.39167 39.1557L 8.39167 44.4083C 8.39167 45.3633 9.025 46 9.975 46L 66.025 46C 66.975 46 67.6083 45.3633 67.6083 44.4083L 67.6083 39.1557C 69.35 41.2249 71.25 43.4533 73.3083 45.5225C 73.625 45.8408 73.9417 46 74.4167 46C 74.8917 46 75.2083 45.8408 75.525 45.5225C 76.1583 44.7266 76.1583 43.7716 75.525 43.1349ZM 11.5583 34.699C 17.2583 26.4221 20.5833 18.3045 22.4833 12.0969L 22.4833 42.6574L 11.5583 42.6574L 11.5583 34.699ZM 25.65 42.6574L 25.65 13.8477C 27.8667 19.737 31.1917 27.5363 36.4167 34.8581L 36.4167 42.6574L 25.65 42.6574ZM 64.4417 42.6574L 39.5833 42.6574L 39.5833 35.9723L 64.4417 35.9723L 64.4417 42.6574ZM 38.7917 32.7889C 29.925 20.2145 26.4417 6.36678 25.65 3.18339L 51.3 3.18339C 51.9333 7.3218 54.7833 19.8962 63.0167 32.7889L 38.7917 32.7889Z"/>
+</defs>
+</svg>

@@ -1,0 +1,85 @@
+<svg width="152" height="153" viewBox="0 0 152 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(519 -5226)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse" style="mix-blend-mode:normal;" filter="url(#filter0_i)" figma:type="ellipse">
+<use xlink:href="#path0_fill" transform="translate(-519 5226.23)" fill="#EEF2F5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" filter="url(#filter1_d)" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(-493 5244.23)" fill="url(#paint1_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="noun_250353_cc" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-443.942 5317.91)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(-465.242 5277.11)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path4_fill" transform="translate(-433.442 5301.17)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path5_fill" transform="translate(-432.805 5292.11)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path6_fill" transform="translate(-487.059 5292.01)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path7_fill" transform="translate(-420.097 5303.81)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path8_fill" transform="translate(-428.957 5303.89)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path9_fill" transform="translate(-428.219 5296.51)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path10_fill" transform="translate(-482.542 5296.41)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path11_fill" transform="translate(-441.442 5309.81)" fill="#7E8E8E" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_i" filterUnits="userSpaceOnUse" x="-523" y="5223" width="160" height="160" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<desc>type="innerShadow" x="0" y="1" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha"/>
+<feOffset dx="0" dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+<filter id="filter1_d" filterUnits="userSpaceOnUse" x="-497" y="5245" width="109" height="122" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="4" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.12323e-15 116 -100 7.10295e-15 100 7.91142e-23)">
+<stop offset="0.0222222" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#F2F2F2"/>
+</linearGradient>
+<path id="path0_fill" d="M 152 76C 152 117.974 117.974 152 76 152C 34.0264 152 0 117.974 0 76C 0 34.0264 34.0264 0 76 0C 117.974 0 152 34.0264 152 76Z"/>
+<path id="path1_fill" d="M 100 82.4546C 100 85.3099 98.4781 87.9489 96.0067 89.3789L 54.0067 113.682C 51.5281 115.116 48.4719 115.116 45.9933 113.682L 3.99333 89.3789C 1.52188 87.9489 0 85.3099 0 82.4546L 0 33.671C 0 30.8215 1.51572 28.187 3.97919 26.7549L 45.9792 2.33755C 48.465 0.89242 51.535 0.89242 54.0208 2.33755L 96.0208 26.7549C 98.4843 28.187 100 30.8215 100 33.671L 100 82.4546Z"/>
+<path id="path2_fill" d="M 4.9 2.00001L 1 2.00001C 0.400003 2.00001 3.05176e-06 1.60001 3.05176e-06 1.00001C 3.05176e-06 0.400012 0.400003 1.2207e-05 1 1.2207e-05L 4.9 1.2207e-05C 5.5 1.2207e-05 5.9 0.400012 5.9 1.00001C 5.9 1.60001 5.4 2.00001 4.9 2.00001Z"/>
+<path id="path3_fill" d="M 50.8 32.1L 31.4 17C 31.2 16.8 31.1 16.5 31.2 16.3L 34.4 5.70001C 34.5 5.30001 35 4.99999 35.5 4.99999C 36.9 4.99999 38.1 4.10001 38.6 2.80001L 39.1 1.30001C 39.2 1.00001 39.1 0.699988 39 0.399988C 38.8 0.0999878 38.5 -6.10352e-06 38.2 -6.10352e-06L 30 -6.10352e-06C 28.4 -6.10352e-06 27 0.999994 26.5 2.49999C 26.3 2.99999 26.6 3.60001 27.1 3.80001C 27.6 4.00001 28.2 3.70001 28.4 3.20001C 28.6 2.50001 29.3 2.1 30 2.1L 36.9 2.1L 36.9 2.20001C 36.7 2.70001 36.2 3 35.7 3.1C 34.3 3.1 33.1 4.00001 32.7 5.30001L 29.8 15.1C 29.6 15.9 29.4 16 29.2 15.9L 8 10.6C 7.8 10.6 7.8 10.4 7.8 10.2L 9 7.80001C 9.2 7.40001 9.1 6.9 8.8 6.6L 6.8 4.70001L 9.7 4.70001C 10.3 4.70001 10.7 4.30001 10.7 3.70001C 10.7 3.10001 10.3 2.70001 9.7 2.70001L 1 2.70001C 0.4 2.70001 -5.68434e-14 3.10001 -5.68434e-14 3.70001C -5.68434e-14 4.30001 0.4 4.70001 1 4.70001L 3.5 4.70001C 3.7 4.70001 4.00001 4.79999 4.10001 4.89999C 4.70001 5.49999 6.1 6.80001 6.7 7.30001C 6.8 7.40001 6.9 7.60001 6.8 7.70001L 1.60001 18.3C 1.40001 18.8 1.60001 19.4 2.10001 19.6C 2.20001 19.7 2.4 19.7 2.5 19.7C 2.9 19.7 3.19999 19.5 3.39999 19.1L 5.2 15.4C 5.3 15.3 5.4 15.2 5.5 15.3L 20.6 31C 20.7 31.1 20.8 31.4 20.7 31.6C 20.3 32.3 20.1 33.1 20.1 33.9C 20.1 35.3 20.7 36.6 21.7 37.6C 22.1 38 22.7 37.9 23.1 37.5C 23.5 37.1 23.5 36.5 23.1 36.1C 22.6 35.6 22.2 35 22.1 34.3C 21.8 32.2 23.7 30.3 25.9 30.9C 26.8 31.1 27.6 31.8 27.9 32.7C 28.5 34.5 27.5 36.3 25.9 36.7C 25.4 36.8 25 37.4 25.2 37.9C 25.3 38.3 25.7 38.6 26.2 38.6C 26.3 38.6 26.4 38.6 26.5 38.6C 28.2 38.2 29.5 36.8 30 35.2C 30.1 35 30.2 34.9 30.4 34.8L 50.5 33.7C 51.3 33.8 51.4 32.6 50.8 32.1ZM 23.2 24.5L 26.5 24.5C 26.6 24.5 26.7 24.6 26.6 24.7L 25.3 28.9C 25.1 28.9 25 28.9 24.9 28.9C 23.9 28.9 23 29.2 22.2 29.7C 22 29.8 21.8 29.8 21.7 29.6L 5.89999 13.2L 6.3 12.4L 6.39999 12.2L 28.2 17.7C 28.4 17.8 28.5 18 28.5 18.2L 27.2 22.4C 27.2 22.5 27.1 22.5 27.1 22.5L 23.1 22.5C 22.5 22.5 22.1 22.9 22.1 23.5C 22.2 24 22.6 24.5 23.2 24.5ZM 27.2 29.5L 30.3 19.1C 30.3 19 30.5 18.9 30.6 19L 47.2 31.9C 47.3 31.9 47.2 32.1 47.2 32.1L 30.1 33C 29.9 33 29.7 32.9 29.7 32.7C 29.4 31.3 28.4 30.1 27.2 29.5Z"/>
+<path id="path4_fill" d="M 1 7.14096L 0.899997 7.14096C 0.399997 7.04096 3.05176e-06 6.54095 3.05176e-06 6.04095C 0.300003 4.14095 0.8 2.24095 1.7 0.540954C 2 0.040954 2.6 -0.15904 3 0.14096C 3.5 0.44096 3.7 1.04095 3.4 1.44095C 2.6 2.94095 2.1 4.64094 1.9 6.34094C 1.9 6.74094 1.5 7.14096 1 7.14096Z"/>
+<path id="path5_fill" d="M 16.5626 34.7C 9.06265 34.7 2.46265 29.9 0.0626462 22.9C -0.137354 22.4 0.162652 21.8 0.662652 21.6C 1.16265 21.4 1.76264 21.7 1.96264 22.2C 4.06264 28.5 9.86265 32.7 16.5626 32.7C 25.0626 32.7 31.8626 25.8 31.8626 17.4C 31.8626 8.99999 24.9626 1.99999 16.5626 1.99999C 13.1626 1.99999 9.96264 3.1 7.26264 5.1C 6.86264 5.4 6.16265 5.29999 5.86265 4.89999C 5.56265 4.49999 5.66265 3.79999 6.06265 3.49999C 9.06265 1.19999 12.7626 -6.10352e-06 16.5626 -6.10352e-06C 26.1626 -6.10352e-06 33.8626 7.79999 33.8626 17.4C 33.9626 27 26.1626 34.7 16.5626 34.7Z"/>
+<path id="path6_fill" d="M 29.0169 4.49999L 28.2169 3.80001C 27.8169 3.40001 27.1169 3.50001 26.8169 3.90001C 26.7169 4.00001 26.6169 4.1 26.5169 4.2L 19.5169 17.8C 19.2169 18.3 19.4169 18.9 19.9169 19.1C 20.0169 19.2 20.2169 19.2 20.4169 19.2C 20.8169 19.2 21.1169 19 21.3169 18.7L 27.6169 6.30001C 27.7169 6.20001 27.8169 6.1 27.9169 6.2C 31.0169 9.1 32.7169 13.1 32.7169 17.4C 32.7169 26.1 25.4169 33.1 16.6169 32.7C 8.8169 32.3 2.41689 25.9 2.01689 18.1C 1.61689 9.29999 8.61689 1.99999 17.3169 1.99999C 18.5169 1.99999 19.8169 2.10001 20.9169 2.40001C 21.4169 2.50001 22.0169 2.2 22.1169 1.7C 22.2169 1.2 21.9169 0.599988 21.4169 0.499988C 20.1169 0.199988 18.7169 -1.2207e-05 17.3169 -1.2207e-05C 7.11689 -1.2207e-05 -1.0831 8.90001 0.116897 19.3C 1.0169 27.2 7.4169 33.7 15.4169 34.6C 25.9169 35.8 34.7169 27.6 34.7169 17.4C 34.9169 12.5 32.7169 7.79999 29.0169 4.49999Z"/>
+<path id="path7_fill" d="M 3.95465 11.4C 2.65465 11.4 1.35464 10.9 0.35464 10.1C -0.0453602 9.70001 -0.145366 9.09999 0.254634 8.69999C 0.654634 8.29999 1.25464 8.20001 1.65464 8.60001C 2.35464 9.10001 3.15465 9.4 3.95465 9.4C 5.95465 9.4 7.65464 7.79999 7.65464 5.69999C 7.65464 3.59999 6.05465 2.00001 3.95465 2.00001C 3.35465 2.00001 2.95465 1.60001 2.95465 1.00001C 2.95465 0.400006 3.35465 6.10352e-06 3.95465 6.10352e-06C 7.05465 6.10352e-06 9.65464 2.49999 9.65464 5.69999C 9.65464 8.89999 7.15465 11.4 3.95465 11.4Z"/>
+<path id="path8_fill" d="M 1.01543 4.31969C 0.915429 4.31969 0.915432 4.31969 0.815432 4.31969C 0.315432 4.21969 -0.0845708 3.71968 0.0154292 3.11968C 0.215429 2.31968 0.415426 1.41968 0.715426 0.619682C 0.915426 0.119682 1.51543 -0.180318 2.01543 0.119682C 2.51543 0.319682 2.81543 0.9197 2.51543 1.4197C 2.21543 2.1197 2.01542 2.81971 1.91542 3.51971C 1.91542 4.01971 1.41543 4.31969 1.01543 4.31969Z"/>
+<path id="path9_fill" d="M 11.9766 26C 6.87664 26 2.17665 23 0.0766468 18.3C -0.123353 17.8 0.0766468 17.2 0.576647 17C 1.07665 16.8 1.67663 17 1.87663 17.5C 3.67663 21.5 7.57663 24 11.8766 24C 17.8766 24 22.8766 19.1 22.8766 13C 22.8766 6.89999 17.9766 1.99999 11.8766 1.99999C 9.57663 1.99999 7.27663 2.69999 5.37663 4.09999C 4.97663 4.39999 4.27664 4.30001 3.97664 3.90001C 3.67664 3.50001 3.77664 2.79999 4.17664 2.49999C 6.37664 0.899988 9.07664 -1.2207e-05 11.7766 -1.2207e-05C 18.9766 -1.2207e-05 24.7766 5.79999 24.7766 13C 24.7766 20.2 19.1766 26 11.9766 26Z"/>
+<path id="path10_fill" d="M 24.4 6.8C 24.1 6.3 23.5 6.10001 23 6.40001C 22.5 6.70001 22.3 7.3 22.6 7.8C 23.5 9.4 24 11.2 24 13.1C 24 19.1 19.1 24.1 13 24.1C 7 24.1 2 19.2 2 13.1C 2 6.99999 6.9 2.09999 13 2.09999C 13.2 2.09999 13.5 2.09999 13.7 2.09999L 9.3 11.3C 9.1 11.8 9.3 12.4 9.8 12.6C 9.9 12.7 10.1 12.7 10.2 12.7C 10.6 12.7 10.9 12.5 11.1 12.1L 16 1.90001C 16.1 1.80001 16.1 1.60001 16.1 1.50001L 16.1 1.40001C 16.2 0.900006 15.8 0.299994 15.3 0.199994C 14.6 0.0999939 13.8 1.2207e-05 13 1.2207e-05C 5.8 1.2207e-05 -3.05176e-06 5.80001 -3.05176e-06 13C -3.05176e-06 20.2 5.8 26 13 26C 20.2 26 26 20.2 26 13C 26 10.9 25.5 8.7 24.4 6.8Z"/>
+<path id="path11_fill" d="M 1.09999 2.19999C 1.70751 2.19999 2.2 1.70753 2.2 1.10001C 2.2 0.492499 1.70751 6.10352e-06 1.09999 6.10352e-06C 0.492481 6.10352e-06 3.05176e-06 0.492499 3.05176e-06 1.10001C 3.05176e-06 1.70753 0.492481 2.19999 1.09999 2.19999Z"/>
+</defs>
+</svg>
