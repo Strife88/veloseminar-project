@@ -5,13 +5,42 @@
     <link rel="stylesheet" href="style/typo.css">
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,700,900" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
 </head>
 
 <body>
 <div class="hero start-img">
     <img class="bike-icon" src="svg/bike.svg" alt="Bicicle icon">
     <h1>ВЕЛО</br>CEМИНАР</h1>
-    <div class="CTA-button">участвовать</div>
+    <a href="#payment-anchor"><div class="CTA-button">участвовать</div></a>
 </div>
 <div class="container">
     <h3>Подготовься к многодневному походу</h3>
@@ -64,7 +93,7 @@
         </h5>
         <h5>Пройдите маршрут по живописным местам приморского края. Обретите товарищей по увлечению.
         </h5>
-        <div class="CTA-button">участвовать</div>
+        <a href="#payment-anchor"><a href="#payment-anchor"><div class="CTA-button">участвовать</div></a></a>
         </div>   
         </div>
     </div>
@@ -149,7 +178,7 @@
 
     <h5>Проходит в пригороде г. Владивостока; В нем семинаристы закрепляют навыки на практике. Обучаются грамотному  выбору место для лагеря и обеда. Ставят лагерь, готовят еду. Постигают азы движения в группе. Занимаются полевым ремонтов. 
     </h5>
-    <div class="CTA-button">участвовать</div>
+    <a href="#payment-anchor"><div class="CTA-button">участвовать</div></a>
     </div>   
 </div>
 <div class="container-narrow">
@@ -252,7 +281,7 @@
 
 <div class="container-narrow center-container">
     <h3>Количество мест в группе ограничено</h3> 
-    <div class="bundle">
+    <div id="payment-anchor" class="bundle">
         <div class="text-block">
             <h3>Заявка на участие в велосеминаре</h3>
             <p>Записывайтесь, и вы получите:</p>
@@ -288,34 +317,22 @@
     </div>
 
 </div>
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter42682004 = new Ya.Metrika({
-                    id:42682004,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
+<div class="form-input-bg">
+    <div class="form-input">
+        <h3>Заявка на участие</h3>
+            <form method="POST" action="http://formspree.io/strife88@mail.ru">
+                <span> Имя </span> <input type="text" placeholder="Введите ваше имя" name="name">
+                <span> E-mail: </span> <input type="email" placeholder="Ваш E-mail" name="email"><br>
+                <span> Телефон: </span> <input type="tel" placeholder="Ваш Телефон" name="telephone"><br> 
+                <button type="submit">Send</button>
+            </form>
+    </div>
+</div>
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
+</div>
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/42682004" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+
+</div>
 
   <!-- AniJS core library -->
   <script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script> 
