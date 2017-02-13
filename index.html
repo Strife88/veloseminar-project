@@ -39,9 +39,12 @@ $(document).ready(function(){
 <body>
 <div class="hero start-img">
     <img class="bike-icon" src="svg/bike.svg" alt="Bicicle icon">
+    <h4 class="city">г. Владивосток</h4>
     <h1>ВЕЛО</br>CEМИНАР</h1>
+    <a href="#open-class"><div class="CTA-button ghost">открытое занятие</div></a>
     <a href="#payment-anchor"><div class="CTA-button">участвовать</div></a>
 </div>
+
 <div class="container">
     <h3>Подготовься к многодневному походу</h3>
     <div class="promo">
@@ -230,49 +233,38 @@ $(document).ready(function(){
 </div>
 <div class="container-narrow">
 
-<i data-anijs="if: mouseover, on: target, do: $removeClass lession, from: target"></i>
-
-    <h3>План занятии</h3> 
+    <h3 id="open-class">Открытый урок</h3> 
             <div class="plan">
-            <div class="line"></div>
-            <div class="lession start theory">></div>
-            <div class="lession theory first-one">
-                <span>1</span>
-                    <div data-anijs="if: click, do: $add" class="urok-frame first-one">
+                <div class="urok-frame first-one">
                     <div class="urok">
-                    <h7>16 Марта</h7>
-                    <h4>Ознакомитлеьное занятие</h4>
-                    <p>Первое вводное занятие, рассказ о всем курсе</p>
-                    <h4>Вход свободный</h4>
+                        <h7>16 Марта</h7>
+                        <h4>Ознакомитлеьное занятие</h4>
+                        <p>Первое вводное занятие, рассказ о всем курсе. О том как проходят занятия и походы. Какой темп езды в группе, какая подготовка нужна для того чтобы участвать.</br> 
+                        Приходите будет интересно.</p>
+                        <h7>Время и дата</h7>
+                        <h4>16 марта в 19-00</h4>
+                        <h7>Место</h7>
+                        <p>Снеговая 35 ( школа )</br>
+                        Клуб Грин-тур. 2этаж, кабинет 5.</p>
+                        <h4 class="last">Вход свободный</h4>
                     </div>
+                    <div class="location"></div>
                     </div>
-            </div>
-            <div class="lession practice">1</div>
-            
-            <div class="lession theory">2</div>
-            <div class="lession practice">2</div>
-            
-            <div class="lession theory">3</div>
-            <div class="lession practice">3</div>
-            
-            <div class="lession theory">4</div>
-            <div class="lession practice">4</div>
-            
-            <div class="lession theory">5</div>
-            <div class="lession practice">5</div>
-            <div class="lession pvd practice">ПВД</div>
-            <div class="lession BMP practice">БМВП</div>
             </div>
 
 </div>
 <div class="hero bottom-trail">
-    <div class="container">
+    <div class="container center-container">
         <h3>Главный преподаватель велосеминара</h3>
-        <div class="review shatilovshina">
-            <div class="shatilov left"></div>
+        <div class="shatilov-info">
             <h4>Шатилов Александр Олегович</h4>
             <p>57 лет. Заслуженный путешественник россии.</p>
-            <span class="ending-text">Велосеминар — это отличная база для подготовки грамотных велотуристов, мультиспортсменов, а так же он помогает отточить навыки уже состоявшихся туристов.</span>
+        </div>
+
+        <div class="review shatilovshina">
+            <div class="shatilov">
+                 <span class="ending-text">Велосеминар — это отличная база для подготовки грамотных велотуристов, мультиспортсменов, а так же он помогает отточить навыки уже состоявшихся туристов.</span>
+            </div>       
         </div>
     </div>
 </div>
@@ -312,7 +304,12 @@ $(document).ready(function(){
             <h3> 4 500 ₽</h3>
         </div>
 
-        <div class="CTA-button full-width">ЗАЯВИТЬСЯ</div>
+        <div
+
+        data-anijs="if:click, do: $toggleClass show, to:.form-input-bg;
+                    if: click, on: .close-form, do: $removeClass show, to: $closest target | .form-input-bg;"
+       
+        class="CTA-button full-width">ЗАЯВИТЬСЯ</div>
     </div>
 
 </div>
@@ -325,6 +322,7 @@ $(document).ready(function(){
                 <h7> E-mail: </h7> <input type="email" placeholder="Ваш E-mail" name="email"><br>
                 <h7> Телефон: </h7> <input type="tel" placeholder="Ваш Телефон" name="telephone"><br> 
                 <button class="CTA-button" type="submit">Отправить</button>
+
             </form>
     </div>
 </div>
