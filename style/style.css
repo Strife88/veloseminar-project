@@ -678,6 +678,8 @@ input {
     padding: 18px;
     width: 300px;
     box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px
 }
 button.CTA-button {
     margin-top: 50px;
@@ -694,7 +696,7 @@ button.CTA-button {
     background: url(../svg/close-form.svg);
     position: absolute;
     margin: 50%;
-    top: -520px;
+    top: -440px;
     left: -30px;
     width: 46px;
     height: 47px;
