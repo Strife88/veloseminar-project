@@ -705,9 +705,9 @@ button.CTA-button {
 .close-form {
     background: url(../svg/close-form.svg);
     position: absolute;
-    margin: 50%;
-    top: -520px;
-    left: -30px;
+    top: 100px;
+    margin-right: 50%;
+    right: -23px;
     width: 46px;
     height: 47px;
 }
