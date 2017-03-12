@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .container {
     position: relative;
     width:1200px;
@@ -35,6 +36,7 @@
     width:100%;
 }
 .start-img {
+    margin-top: 60px;
     height: 800px;
     background: linear-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,0) 69%, rgba(255,255,255,1) 100%),url("../img/start-img.jpg");
     background-size: cover;
@@ -705,9 +707,9 @@ button.CTA-button {
 .close-form {
     background: url(../svg/close-form.svg);
     position: absolute;
-    top: 100px;
-    margin-right: 50%;
-    right: -23px;
+    margin: 50%;
+    top: -520px;
+    left: -30px;
     width: 46px;
     height: 47px;
 }
@@ -715,8 +717,75 @@ button.CTA-button {
      text-decoration: line-through;
 }
 
+header {
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    width:100%;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header h7 {
+    display: inline;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 0px;
+    margin-left: 40px;
+    text-transform:initial;
+}
+header a:visited {
+    color: #333;
+    text-decoration:none;
+}
+header .header-logo {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+    background: url(../img/logo.svg); 
+    width:336px;
+    height:41px;
+}
+header .container {
+    width: 1100px;
+}
+header .nav {
+    float: right;
+
+}
+header .header-logo-container {
+    float: left;
+}
+.header-button {
+    line-height: 100%;
+    padding: 10px 30px;
+    background: #31AFF9;
+    border-radius: 6px;
+    font-weight: bold;
+    color:  white;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    text-transform:uppercase;
+    transition: box-shadow 0.26s;
+    transition-timing-function: ease-out;
+}
+.header-button:active {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    background: #2193D7;
+    transition: box-shadow 0.26s;
+    transition-timing-function: ease-out;
+
+}
+a:active, a:focus, a:visited, a:hover, a:-webkit-any-link {
+    text-decoration: none;
+}
+
+
 @media screen and (max-width: 1279px) {
 
+header {
+ width:1200px;
+}
 .map-bg-bottom {
     width: 1200px;
 }

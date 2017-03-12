@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #999;
+    line-height: 100%;
+    padding: 0px;
+}
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #333;
+}
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+}
+h5 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #56CCF2;
+}
+h6 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #333;
+}
